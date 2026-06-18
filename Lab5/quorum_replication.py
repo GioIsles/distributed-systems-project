@@ -1,3 +1,22 @@
+"""
+Execution:
+    python quorum_replication.py
+
+Scenarios:
+    A: R=2, W=2
+    B: R=3, W=1
+    C: R=1, W=1
+
+The program measures:
+    - Read latency
+    - Write latency
+    - Successful operations
+    - Failed operations
+    - Consistency behavior
+
+A stale read demonstration is included for Scenario C.
+"""
+
 import time
 import random
 from collections import Counter
